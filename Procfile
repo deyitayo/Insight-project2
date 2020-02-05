@@ -1,1 +1,1 @@
-web: streamlit run App.py --server.port $PORT --browser.serverAddress https://next-check.herokuapp.com
+web: streamlit run Next.py --server.port $PORT --browser.serverAddress https://next-check.herokuapp.com
