@@ -7,3 +7,5 @@ The analysis entailed data cleaning, requiring removing columns of data with onl
 Subsequently, I performed data exploration, which showed the response variable- interval between dialysis access interventions to be skewed and depicting outlier values. So, I did a natural log transformation to take care of the assymmetry in the response variable. Then I used one-hot encoding to break up the individual classes within each categorical variable into seperate columns, and also used simple imputer to replace missing values in numeric predictor variables with the mean value for each column.
 
 Finally, I used a Random Forest model to predict interval between dialysis access interventions. The value in such prediction is that dialysis access facilities/physicians can schedule detailed clinical examination of the patient to detect complications before they become severe. I then embedded the final random forest model into a Web app I built for dialysis facilities to use in estimating appropriate dates for scheduled clininal checkup.
+
+You can take a look at the web app via: https://next-check.herokuapp.com/
