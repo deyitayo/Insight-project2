@@ -9,3 +9,5 @@ Subsequently, I performed data exploration, which showed the response variable- 
 Finally, I used a Random Forest model to predict interval between dialysis access interventions. The value in such prediction is that dialysis access facilities/physicians can schedule detailed clinical examination of the patient to detect complications before they become severe. I then embedded the final random forest model into a Web app I built for dialysis facilities to use in estimating appropriate dates for scheduled clininal checkup.
 
 You can take a look at the web app via: https://next-check.herokuapp.com/
+
+PS: I'm unable to share the dataset for this project as I'm bound by a signed confidentiality agreement protecting the privacy of patient health information.
